@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'groovy'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "com.google.inject:guice:4.1.+"
+
+    testCompile 'junit:junit:4.+'
+    testCompile "org.spockframework:spock-core:1.+"
+    testCompile "cglib:cglib-nodep:3.2+"
+}
+
+mainClassName = 'liv.tudor.MainDriver'
