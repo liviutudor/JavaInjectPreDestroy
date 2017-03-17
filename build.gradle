@@ -8,6 +8,7 @@ repositories {
 
 dependencies {
     compile "com.google.inject:guice:4.1.+"
+    compile "com.netflix.governator:governator:latest.release"
 
     testCompile 'junit:junit:4.+'
     testCompile "org.spockframework:spock-core:1.+"
